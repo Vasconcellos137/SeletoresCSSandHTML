@@ -1,0 +1,43 @@
+body {
+    background-color: #f4f4f4; 
+    font-family: Arial, sans-serif; 
+}
+
+#topo-principal {
+    background-color: #333; 
+    color: white;          
+    padding: 20px;          
+}
+
+.card {
+    background-color: white;   
+    border-radius: 10px;      
+    width: 200px;             
+    padding: 15px;            /* Não possuo */    
+    margin: 10px;             /* Não possuo */    
+    display: inline-block;    /* Não possuo */    
+}
+
+p span {
+    font-weight: bold; 
+    color: blue;       
+}
+
+h1, h2 {
+    color: #2c3e50; 
+}
+
+.card.destaque {
+    border: 3px solid gold;
+    transform: scale(1.05); 
+}
+
+button:hover {
+    background-color: #27ae60;
+    color: white;                 /* Não possuo */    
+    cursor: pointer;           
+}
+
+nav ul li:nth-child(2) {
+    text-transform: uppercase; 
+}

@@ -18,6 +18,11 @@ body {
     border-radius: 10px;
 
     width: 200px;
+
+    /* Coisas do gabarito */
+    padding: 15px;            
+    margin: 10px;                 
+    display: inline-block;
 }
 
 /* Relação de Hierarquia (Seletor Descendente) */
@@ -28,8 +33,7 @@ p span {
 }
 
 /* Otimização de Código (Seletor de Agrupamento) */
-h1,
-h2 {
+h1, h2 {
     color: #2c3e50;
 }
 
@@ -45,10 +49,21 @@ button:hover {
     background-color: #27ae60;
 
     cursor: pointer;
+
+    /* Coisas do gabarito */
+    color: white;  
 }
 
 /* Seleção Estrutural (Pseudo-classe :nth-child) */
 nav ul li:nth-child(2) {
     text-transform: uppercase;
+}
 
+/* Coisas a mais - 25.3.26 */
+li {
+    list-style-type: none;
+}
+
+nav ul li {
+    color: rgb(0, 255, 0);
 }
