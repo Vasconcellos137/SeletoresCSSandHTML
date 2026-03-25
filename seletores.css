@@ -1,14 +1,17 @@
-body { 
+/* Estilização Global (Seletor de Tag) */
+body {
     background-color: #f4f4f4;
     font-family: Arial, sans-serif;
 }
 
+/* Identificação Única (Seletor de ID) */
 #topo-principal {
     background-color: #333;
     color: white;
     padding: 20px;
 }
 
+/* Padrões Repetíveis (Seletor de Classe) */
 .card {
     background-color: white;
 
@@ -17,3 +20,35 @@ body {
     width: 200px;
 }
 
+/* Relação de Hierarquia (Seletor Descendente) */
+p span {
+    font-weight: bold;
+
+    color: blue;
+}
+
+/* Otimização de Código (Seletor de Agrupamento) */
+h1,
+h2 {
+    color: #2c3e50;
+}
+
+/* Especialização (Seletor de Classe Específica) */
+.card.destaque {
+    border: 3px solid gold;
+
+    transform: scale(1.05);
+}
+
+/* Estados do Usuário (Pseudo-classe :hover) */
+button:hover {
+    background-color: #27ae60;
+
+    cursor: pointer;
+}
+
+/* Seleção Estrutural (Pseudo-classe :nth-child) */
+nav ul li:nth-child(2) {
+    text-transform: uppercase;
+
+}
